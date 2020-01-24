@@ -10,10 +10,10 @@ class List extends Component {
                     people.map((p) => {
                         console.log(p)
                         return (
-                            <di key={p.url}>
+                            <div key={p.url}>
                                 <h3 className="char-name">{p.name}</h3>
-                                <CharInfo charInfo={p} />
-                            </di>
+                                <CharInfo CharInfo={p} />
+                            </div>
                         )
                     })
                 }
